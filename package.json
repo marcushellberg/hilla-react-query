@@ -16,6 +16,7 @@
     "@hilla/react-components": "2.1.7",
     "@hilla/react-form": "2.2.0",
     "@polymer/polymer": "3.5.1",
+    "@tanstack/react-query": "^4.35.3",
     "@vaadin/bundles": "24.1.7",
     "@vaadin/common-frontend": "0.0.18",
     "@vaadin/router": "1.7.5",
