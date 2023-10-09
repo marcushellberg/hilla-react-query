@@ -70,7 +70,8 @@
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
     "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
-    "@hilla/react-form": "$@hilla/react-form"
+    "@hilla/react-form": "$@hilla/react-form",
+    "@tanstack/react-query": "$@tanstack/react-query"
   },
   "vaadin": {
     "dependencies": {
@@ -111,6 +112,6 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "2a95f971ab36c5e79a2b54e6aab9fc3879eca30bb40c1dcb12d8d799a24367f8"
+    "hash": "5efcc00d609bdb928d1b9e173eaf592aee535508e317b61b0296067932985ed1"
   }
 }

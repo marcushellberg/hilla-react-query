@@ -6,19 +6,16 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Todo {
-
     @Id
     @GeneratedValue
     private Long id;
     private String task;
-    private boolean done;
 
     public Todo() {
     }
 
-    public Todo(String task, boolean done) {
+    public Todo(String task) {
         this.task = task;
-        this.done = done;
     }
 
     public Long getId() {
@@ -33,15 +30,8 @@ public class Todo {
         return task;
     }
 
-    public boolean isDone() {
-        return done;
-    }
-
     public void setTask(String title) {
         this.task = title;
     }
 
-    public void setDone(boolean done) {
-        this.done = done;
-    }
 }
